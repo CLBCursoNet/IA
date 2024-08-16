@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: sans-serif;
+  color: black;
+  background-image: url(imagens/fundo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+#barraTitulo {
+  background-color: rgb(255, 189, 48);
+  margin-top: 0;
+  height: 100%;
+  padding: 2.5vh 0 2.5vh 4vh;
+
+  display: flex;
+  align-items: center;
+}
+#titulo {
+  font-size: 3.5vh;
+  font-weight: 600;
+}
+#espaco {
+  padding: 10px 30px;
+  border: 1px solid rgb(255, 189, 48);
+}
+#barraTitulo img {
+  display: flex;
+  height: 7vh;
+  border-radius: 50%;
+
+  position: absolute;
+  left: 85%;
+  flex-shrink: 0; /*se a página ficar muito apertada, o círculo continuará redondo*/
+}
+
+#quadrado {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+
+  padding: 30vh 5vw 100px;
+}
+
+.caixas {
+  border: solid 0.4vh black;
+  width: 60vw;
+  height: 22vh;
+}
+.caixas h3 {
+  padding: 3vh 0 6vh 2vw;
+  font-family: "Orbitron", sans-serif;
+  color: rgb(149, 58, 58);
+  font-weight: 400;
+  font-size: 3vh;
+}
+
+#amarelo {
+  background-color: rgb(254, 218, 76);
+}
+
+.caixas button {
+  border-radius: 60px;
+  flex-shrink: 0;/*se a página ficar muito apertada, o círculo continuará redondo*/
+  position: absolute;
+  border: solid 0.1vh rgb(87, 33, 33);
+  font-size: 2vh;
+  padding: 0.7vh;
+}
+
+.caixas button a {
+  text-decoration: none;
+  color: black;
+}
+
+#mod1 {
+  left: 13.5vw;
+} 
+#mod2 {
+  left: 28.7vw;
+}
+#mod3 {
+  left: 44vw;
+}
+#mod4 {
+  left: 59.5vw;
+}
+#fim {
+  left: 74.7vw;
+}
+#cert {
+  left: 90vw;
+}
+
+@media(max-width: 1200px) {
+  #quadrado {
+  flex-direction: column;
+}
+.caixas {
+  height: 20vh;
+}
+.caixas h3 {
+  padding: 4vh 0 3vh 3vw;
+}
+ #mod1 {
+  left: 60vw;
+} 
+ #mod2 {
+  left: 60vw;
+}
+ #mod3 {
+  left: 60vw;
+}
+ #mod4 {
+  left: 60vw;
+}
+ #fim {
+  left: 60vw;
+ }
+ #cert {
+  left: 60vw;
+ }
+}
+
+/* #certo {
+  display: flex;
+  align-items: center;
+}
+#teste {
+  padding: 10px;
+  border-left: 1300px solid red;
+} */
