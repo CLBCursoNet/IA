@@ -9,6 +9,8 @@ function mudar() {
     }
 }
 
+vvvvvvvv
+
 let mostrarSenha = document.querySelector('.fa-eye')
 let mostrarConfirme = document.querySelector('#confirme')
 
@@ -135,4 +137,3 @@ mostrarSenha.addEventListener('click', ()=> {
     inputSenha.setAttribute ('type', 'text')
 } else {
     inputSenha.setAttribute ('type', 'password')
-}})
