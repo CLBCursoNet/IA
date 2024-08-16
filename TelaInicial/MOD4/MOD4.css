@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+background-image: url(./img4/fundoRoxo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+
+#titulo {
+background-color: white;
+width: 160px;
+border-radius: 60px;
+font-size: 4.5vh;
+padding: 10px 30px;
+position: absolute;
+left: 8%;
+top: 6%;
+}
+
+#envolta {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3vw;
+
+  padding: 30vh 5vw 100px;
+}
+
+.caixas {
+border: solid 0.4vh white;
+background-color: rgb(219, 90, 202);
+width: 60vw;
+height: 20vh;
+}
+#caixa1 {
+  height: 24vh;
+}
+.caixas h3 {
+padding: 4vh 0 3vh 3vw;
+font-family: "Orbitron", sans-serif;
+color: white;
+font-weight: 400;
+font-size: 3vh;
+}
+.caixas button {
+border-radius: 60px;
+flex-shrink: 0;
+
+position: absolute;
+left: 60vw;
+
+border: solid 0.1vh rgb(175, 27, 155);
+font-size: 2vh;
+padding: 0.7vh;
+}
+
+.caixas button a {
+  text-decoration: none;
+  color: black;
+}
