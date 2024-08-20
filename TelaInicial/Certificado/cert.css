@@ -94,7 +94,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15vh 0 10vh;
+  padding: 15vh 0 0;
   border-collapse: collapse;
 }
 img {
@@ -120,7 +120,7 @@ img {
   .lado {
     display: flex;
     justify-content: center;
-    padding-top: 20vh;
+    padding-top: 10vh;
   }
 
   h1 {
