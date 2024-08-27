@@ -110,6 +110,7 @@ img {
     flex-direction: column;
     margin-bottom: 30vh;
   }
+  
   #quadrado {   
     background-color: rgb(53, 53, 179);
     padding: 6vh 8vw;
