@@ -118,6 +118,9 @@
     background-color: rgb(208, 208, 229);
     transition: all .4s ease-out;
   }
+a {
+  text-decoration-line: none;
+}
 
 #msgDeErro {
   text-align: center;
