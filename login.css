@@ -33,10 +33,14 @@
     left: 85%;
   }
 
+p {
+  padding-top: 30vh;
+}
+
 #mão {
   margin-top: 15vh;
   margin-bottom: 30vh;
-  width: 100%;
+  width: 100vh;
   height: 35vh;
 }
 
@@ -113,7 +117,7 @@
   
   button {
     background-color: rgb(142, 142, 246);
-    border-color: rgb (136, 131, 131);
+    border-color: rgb(136, 131, 131);
     padding: 7px;
     font-weight: bold; /*"bold" deixa o texto em negrito*/
     font-size: 12pt;
