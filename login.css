@@ -33,13 +33,14 @@
     left: 85%;
   }
 
-p {
-  padding-top: 30vh;
+p #objetivo {
+  padding: 15vh 5vh 0;
+
 }
 
 #mão {
-  margin-top: 15vh;
-  margin-bottom: 30vh;
+  margin-top: 5vh;
+  margin-bottom: 15vh;
   height: 35vh;
 }
 
