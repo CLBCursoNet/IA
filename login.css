@@ -34,7 +34,8 @@
   }
 
   p #texto {
-  margin: 15vh auto 0;
+    display: flex;
+    padding: 15vh auto 0;
   }
 
 #mão {
