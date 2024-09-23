@@ -33,18 +33,19 @@
     left: 85%;
   }
 
-  p #texto {
+.lado {
     display: flex;
-    align-items: center;
-    padding-top: 15vh;
-  }
+    justify-content: center;
+}
+
+ #texto {
+   padding-top: 15vh;
+ }
 
 #mão {
   margin-top: 5vh;
   margin-bottom: 15vh;
   height: 35vh;
-  display: flex;
-  align-items: center;
 }
 
   .login {
@@ -60,11 +61,6 @@
     padding: 6vh 3vw;
     border-radius: 4%;
     box-shadow: 3px 3px 1px 0px;
-  }
-  
-  .lado {
-    display: flex;
-    justify-content: center;
   }
   
   h1 {
