@@ -35,13 +35,16 @@
 
   p #texto {
     display: flex;
-    padding: 15vh auto 0;
+    justify-content: center;
+    padding-top: 15vh;
   }
 
 #mão {
   margin-top: 5vh;
   margin-bottom: 15vh;
   height: 35vh;
+  display: flex;
+  justify-content: center;
 }
 
   .login {
