@@ -33,22 +33,27 @@
     left: 85%;
   }
 
-.lado {
+  #alinhar {
     display: flex;
-    flex-direction: column;
     justify-content: center;
 }
 
- #texto {
-   padding-top: 15vh;
- }
+  p #texto {
+    text-align: center;
+    padding-top: 15vh;
+  }
 
 #mão {
   margin-top: 5vh;
   margin-bottom: 15vh;
-  height: 35vh;
+  max-width: 80%;
+  height: auto;
 }
 
+.lado {
+  display: flex;
+  justify-content: center;
+}
   .login {
     display: flex;
     align-items: center;
