@@ -65,6 +65,7 @@
   
   #quadrado {   
     background-color: rgb(53, 53, 179);
+    max-width: 80vw;
     padding: 6vh 3vw;
     border-radius: 4%;
     box-shadow: 3px 3px 1px 0px;
