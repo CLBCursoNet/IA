@@ -36,12 +36,12 @@
   #alinhar {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
   p #texto {
     text-align: center;
-    padding-top: 15vh;
+    margin-top: 15vh;
   }
 
 #mão {
