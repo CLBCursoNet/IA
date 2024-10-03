@@ -46,7 +46,7 @@
 
 #mão {
   margin-top: 5vh;
-  margin-bottom: 15vh;
+  margin-bottom: 10vh;
   max-width: 80%;
   height: auto;
 }
@@ -54,6 +54,7 @@
 .lado {
   display: flex;
   justify-content: center;
+  margin-bottom: 10vh;
 }
 
   .login {
@@ -66,7 +67,6 @@
   
   #quadrado {   
     background-color: rgb(53, 53, 179);
-    max-width: 80vw;
     padding: 6vh 3vw;
     border-radius: 4%;
     box-shadow: 3px 3px 1px 0px;
