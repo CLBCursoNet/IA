@@ -35,7 +35,9 @@
 
 
  #acimaDeP {
-  padding: 10vh;
+  margin: 3px solid pink;
+  padding: 40px;
+
  }
  p #texto {
    align-items: center;
