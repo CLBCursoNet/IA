@@ -33,6 +33,14 @@
     left: 85%;
   }
 
+
+ #acimaDeP {
+  padding: 10vh;
+ }
+ p #texto {
+   align-items: center;
+ }
+
   #alinhar {
     display: flex;
     flex-direction: column;
@@ -41,10 +49,6 @@
     padding: 0 auto;
 }
 
-  p #texto {
-    text-align: center;
-    margin: 10vh auto 0;
-  }
 
 #mão {
   margin-top: 5vh;
