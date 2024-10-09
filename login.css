@@ -39,8 +39,13 @@
   padding: 30px;
 
  }
- p #texto {
-   align-items: center;
+
+ #paragrafo {
+  display: flex;
+  align-items: center;
+ }
+ .parede {
+  padding: 10px;
  }
 
   #alinhar {
