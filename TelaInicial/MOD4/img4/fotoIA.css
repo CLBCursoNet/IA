@@ -91,6 +91,10 @@ img {
     padding-top: 10vh;
 }
 
+video {
+    padding-top: 5vh;
+}
+
 @keyframes deslizamento {
     from {
       left: 0;   
