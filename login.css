@@ -2,10 +2,14 @@
     margin: 0;
     padding: 0;
   }
+  :root {
+    font-size: 62.5%;
+  }
   body {
     background-color: grey;
     font-family: sans-serif;
     color: white;
+    font-size: 1.6rem;
   }
   
   #barraTitulo {
@@ -21,8 +25,8 @@
     font-weight: 600;
   }
   #espaco {
-    padding: 10px 30px;
-    border: 1px solid rgb(95, 95, 95);
+    padding: 1.0rem 3.0rem;
+    border: 0.1rem solid rgb(95, 95, 95);
   }
   #barraTitulo img {
     display: flex;
@@ -35,8 +39,8 @@
 
 
  #acimaDeP {
-  margin: 3px;
-  padding: 30px;
+  margin: 0.3rem;
+  padding: 3.0rem;
 
  }
 
@@ -46,7 +50,7 @@
   align-items: center;
  }
  .parede {
-  padding: 10px;
+  padding: 1.0rem;
  }
 
   #alinhar {
@@ -60,7 +64,7 @@
 
 #mão {
   margin-top: 5vh;
-  max-width: 300px;
+  width: 30.0rem;
   height: auto;
 }
 
@@ -75,53 +79,53 @@
     align-items: center;
   
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 5.0rem;
   }
   
   #quadrado {   
     background-color: rgb(53, 53, 179);
     padding: 6vh 3vw;
     border-radius: 4%;
-    box-shadow: 3px 3px 1px 0px;
+    box-shadow: 0.3rem 0.3rem 0.1rem 0px;
   }
   
   h1 {
-    margin-bottom: 20px;
+    margin-bottom: 2.0rem;
   }
   
   #envolta {
-    padding-top: 15px;
+    padding-top: 1.5rem;
   }
   .espacoflutuante input {
     width: 100%;
-    padding: 5px;
+    padding: 0.5rem;
     display: inline-block;
     border: 0;
-    border-bottom: 3px solid rgb(136, 131, 131);
+    border-bottom: 0.3rem solid rgb(136, 131, 131);
     background-color: transparent;
     outline: none;
-    min-width: 180px;
-    font-size: 16px;
+    min-width: 18.0rem;
+    font-size: 1.6rem;
     transition: all .3s ease-out;
   }
   .espacoflutuante {
     position: relative;
-    padding: 13px;
+    padding: 1.3rem;
   }
   .espacoflutuante input:focus {
-    border-bottom: 2px solid cadetblue;
+    border-bottom: 0.2rem solid cadetblue;
   }
   .espacoflutuante label {
     pointer-events: none; /*não podemos fazer nada com as labels; são travadas; ex: não são clicáveis*/
     position: absolute;
     top: 0;
     left: 0;
-    margin-top: 13px;
+    margin-top: 1.3rem;
     transition: all .3s ease-out;
   }
   .espacoflutuante input:focus + label,
   .espacoflutuante input:valid + label {
-    font-size: 13px;
+    font-size: 1.3rem;
     margin-top: 0;
   }
 
@@ -129,8 +133,8 @@
 /*a classe já vem do site*/
 .fa-eye {
   position: absolute;
-  top: 13px;
-  right: 10px;
+  top: 1.3rem;
+  right: 1.0rem;
   cursor: pointer;
   color: rgb(52, 50, 50);
 }
@@ -139,11 +143,11 @@
   button {
     background-color: rgb(142, 142, 246);
     border-color: rgb(136, 131, 131);
-    padding: 7px;
+    padding: 0.7rem;
     font-weight: bold; /*"bold" deixa o texto em negrito*/
-    font-size: 12pt;
-    margin-top: 20px;
-    border-radius: 8px;
+    font-size: 1.2rem;
+    margin-top: 2.0rem;
+    border-radius: 0.8rem;
     cursor: pointer; /*quando passa o mouse no botão, aparece uma mãozinha*/
   }
   button:hover {
@@ -161,8 +165,8 @@
   }
   
 hr {
-  padding: 1px 130px;
-  border: 25px solid rgb(53, 53, 179);
+  padding: 0.1rem 13.0rem;
+  border: 2.5rem solid rgb(53, 53, 179);
   border-collapse: collapse;
   background-color: rgb(214, 206, 206);
 }
@@ -171,7 +175,7 @@ hr {
     text-align: center;
     color: #ff0000;
     background-color: #ffbbbb;
-    padding: 10px;
-    border-radius: 4px;
+    padding: 1.0rem;
+    border-radius: 0.4rem;
     display: none;
   }    
